@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "jest": "jest",
+    "test:jest": "jest",
     "test:playwright": "playwright test -ui"
   },
   "dependencies": {
