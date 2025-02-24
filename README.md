@@ -25,7 +25,7 @@ To run the example locally, you need to:
 
 1. Sign up for a Clerk account at [https://clerk.com](https://go.clerk.com/31bREJU).
 2. Go to the [Clerk dashboard](https://go.clerk.com/4I5LXFj) and create an application.
-3. Set the required Clerk environment variables as shown in [the example `env` file](https://github.com/clerk/nextjs-auth-starter-template/blob/main/.env.example).
+3. Set the required Clerk environment variables as shown in [the example `env` file](https://github.com/lilybarrett/pup-party/blob/main/.env.example).
 4. Go to "Organization Settings" in your sidebar and enable Organizations
 5. `npm install` the required dependencies.
 6. `npm run dev` to launch the development server.
