@@ -10,11 +10,7 @@ const config: Config = {
   testEnvironment: "jsdom",
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   moduleNameMapper: {
-    "^next-router-mock$": "next-router-mock/MemoryRouterProvider/next-13",
-    "^next-router-mock/MemoryRouterProvider$": "next-router-mock/MemoryRouterProvider/next-13",
     "^next/navigation$": "next-router-mock",
-    "^next/router$": "next-router-mock",
-    "^next/dist/shared/lib/router-context$": "next-router-mock",
   },
   testPathIgnorePatterns: ["<rootDir>/e2e/", "<rootDir>/.next/", "<rootDir>/node_modules/"],
 };
