@@ -105,7 +105,7 @@ export default function Page () {
 
   useEffect(() => {
     if (isLoaded && !userId) {
-      router.push("/dashboard");
+      router.push("/");
     }
   }, [isLoaded, userId, router]);
 
