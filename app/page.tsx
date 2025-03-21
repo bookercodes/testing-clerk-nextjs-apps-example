@@ -1,4 +1,4 @@
-import { SignInButton, SignedIn, SignedOut } from "@clerk/nextjs"
+import { SignInButton, SignOutButton, SignedIn, SignedOut } from "@clerk/nextjs"
 import dogAtRestaurant from "./images/dog_at_restaurant.jpg"
 import "./home.css"
 import Image from "next/image"
@@ -20,11 +20,16 @@ export default function Home() {
             <div className="relative flex gap-3">
               <SignedIn>
                 <Link
-                  href="/dashboard"
+                  href="/submit-review"
                   className="px-4 py-2 rounded-full bg-[#131316] text-white text-sm font-semibold"
                 >
-                  Dashboard
+                 Submit a review
                 </Link>
+                <SignOutButton>
+                  <button className="px-4 py-2 rounded-full bg-[#131316] text-white text-sm font-semibold">
+                    Sign out
+                  </button>
+                </SignOutButton>
               </SignedIn>
             </div>
             <div>
