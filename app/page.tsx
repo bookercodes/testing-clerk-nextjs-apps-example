@@ -1,7 +1,7 @@
 import { AuthActions } from "./components/auth-actions";
-import dogAtRestaurant from "./images/dog_at_restaurant.jpg"
-import "./home.css"
-import Image from "next/image"
+import dogAtRestaurant from "./images/dog_at_restaurant.jpg";
+import "./home.css";
+import Image from "next/image";
 
 export default function Home() {
   return (
