@@ -121,6 +121,8 @@ describe("Submit Review Page", () => {
       await user.type(reviewInput, "Great place!");
       await user.click(ratingInput);
       await user.type(ratingInput, "-1");
+
+      expect(await screen.findByText("Rating must be a number above 0")).toBeInTheDocument();
       
       await user.click(screen.getByText("Submit"));
 
@@ -158,6 +160,8 @@ describe("Submit Review Page", () => {
       await user.type(reviewInput, "ok");
       await user.click(ratingInput);
       await user.type(ratingInput, "5");
+
+      expect(await screen.findByText("Review must be at least 5 characters")).toBeInTheDocument();
       
       await user.click(screen.getByText("Submit"));
 
