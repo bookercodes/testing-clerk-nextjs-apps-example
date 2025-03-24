@@ -50,7 +50,6 @@ export default function RootLayout({
           {children}
         </body>
       </ClerkProvider>
-
       <Script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js" />
       <Script src="https://cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js" />
     </html>
