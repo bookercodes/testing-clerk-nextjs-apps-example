@@ -13,7 +13,9 @@
   </h1>
 </div>
 
-This application was built on top of Clerk's Next.js (App Router) template, which can be found [here](https://github.com/clerk/nextjs-auth-starter-template).
+As referenced in ["A practical guide to testing Clerk Next.js applications,"](https://clerk-git-testing-post.clerkstage.dev/blog/testing-clerk-nextjs#conclusion) this repo includes tests for our sample application, Pup Party. If you'd like to follow along with the tutorial in the blog post, please [start here](https://github.com/lilybarrett/pup-party/tree/start-here).
+
+Pup Party was originally built on top of Clerk's Next.js (App Router) template, which can be found [here](https://github.com/clerk/nextjs-auth-starter-template). 
 
 ## Running the app
 
