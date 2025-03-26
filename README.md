@@ -27,8 +27,20 @@ To run the example locally, you need to:
 2. Go to the [Clerk dashboard](https://go.clerk.com/4I5LXFj) and create an application.
 3. Set the required Clerk environment variables as shown in [the example `env` file](https://github.com/lilybarrett/pup-party/blob/main/.env.example).
 4. Go to "Organization Settings" in your sidebar and enable Organizations
-5. `npm install` the required dependencies.
-6. `npm run dev` to launch the development server.
+5. Run `npm install` the required dependencies.
+6. Run `npm run dev` to launch the development server. You should be able to access the application locally at [http://localhost:3000](http://localhost:3000). 
+
+This command runs the Jest tests:
+
+```
+$ npm run test:jest
+```
+
+This command runs the E2E tests in headless mode:
+
+```
+$ npm run test:playwright
+```
 
 ## Learn more
 
