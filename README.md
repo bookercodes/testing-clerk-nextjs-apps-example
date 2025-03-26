@@ -13,7 +13,9 @@
   </h1>
 </div>
 
-This application was built on top of Clerk's Next.js (App Router) template, which can be found [here](https://github.com/clerk/nextjs-auth-starter-template).
+As referenced in ["A practical guide to testing Clerk Next.js applications,"](https://clerk-git-testing-post.clerkstage.dev/blog/testing-clerk-nextjs#conclusion) this repo allows you to follow along with adding tests for our sample application, Pup Party.
+
+Pup Party was originally built on top of Clerk's Next.js (App Router) template, which can be found [here](https://github.com/clerk/nextjs-auth-starter-template). 
 
 ## Running the app
 
@@ -27,8 +29,10 @@ To run the example locally, you need to:
 2. Go to the [Clerk dashboard](https://go.clerk.com/4I5LXFj) and create an application.
 3. Set the required Clerk environment variables as shown in [the example `env` file](https://github.com/lilybarrett/pup-party/blob/main/.env.example).
 4. Go to "Organization Settings" in your sidebar and enable Organizations
-5. `npm install` the required dependencies.
-6. `npm run dev` to launch the development server.
+5. Run `npm install` the required dependencies.
+6. Run `npm run dev` to launch the development server. You should be able to access the application locally at [http://localhost:3000](http://localhost:3000). 
+
+> Want to see additional commands for running Jest and Playwright tests? Check out the README in the `finished` branch [here](https://github.com/lilybarrett/pup-party/tree/finished).
 
 ## Learn more
 
