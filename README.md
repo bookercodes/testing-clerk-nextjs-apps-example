@@ -17,7 +17,7 @@ As referenced in ["A practical guide to testing Clerk Next.js applications,"](ht
 
 Pup Party was originally built on top of Clerk's Next.js (App Router) template, which can be found [here](https://github.com/clerk/nextjs-auth-starter-template). 
 
-## Running the app
+## Configuring and running the app
 
 ```bash
 git clone https://github.com/lilybarrett/pup-party.git
