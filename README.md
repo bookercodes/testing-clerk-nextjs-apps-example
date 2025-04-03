@@ -34,6 +34,8 @@ To run the example locally, you need to:
 
 ## Running the tests
 
+This command runs the Jest tests:
+
 ```
 $ npm run test:jest
 ```
