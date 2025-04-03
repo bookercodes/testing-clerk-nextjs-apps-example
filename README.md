@@ -17,7 +17,7 @@ As referenced in ["A practical guide to testing Clerk Next.js applications,"](ht
 
 Pup Party was originally built on top of Clerk's Next.js (App Router) template, which can be found [here](https://github.com/clerk/nextjs-auth-starter-template). 
 
-## Running the app
+## Configuring and running the app
 
 ```bash
 git clone https://github.com/lilybarrett/pup-party.git
@@ -32,7 +32,7 @@ To run the example locally, you need to:
 5. Run `npm install` the required dependencies.
 6. Run `npm run dev` to launch the development server. You should be able to access the application locally at [http://localhost:3000](http://localhost:3000). 
 
-This command runs the Jest tests:
+## Running the tests
 
 ```
 $ npm run test:jest

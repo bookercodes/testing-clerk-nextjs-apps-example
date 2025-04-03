@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { clerk } from '@clerk/testing/playwright'
 
-test('user can sign in, submit a review, navigate back, and sign out', async ({ page }) => {
+test('user can sign in, submit a review, and sign out', async ({ page }) => {
   await page.goto('/sign-in');
 
   await clerk.signIn({
